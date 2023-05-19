@@ -3,4 +3,38 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinys");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 0px 60px;
+    border-radius: 10px;
+
+}
+
+h1{
+    color: rgb(71, 4, 71);
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rebeccapurple;
 }
